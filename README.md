@@ -1,7 +1,14 @@
 # DeviceInfo
 
+<br/>
+
 ![alt text](https://github.com/MTACS/DeviceInfo/blob/master/Images/Front%201.png "Front 1")
+
+<br/>
+
 ![alt text](https://github.com/MTACS/DeviceInfo/blob/master/Images/Front%202.png "Front 2")
+
+<br/>
 
 More will be added here soon...
 

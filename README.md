@@ -1,5 +1,7 @@
 # DeviceInfo
 
+![alt text](https://github.com/MTACS/DeviceInfo/blob/master/Images/Front%201.png "Front 1")
+
 More will be added here soon...
 
 # Project

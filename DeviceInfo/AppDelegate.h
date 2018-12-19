@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  DeviceInfo
 //
-//  Created by Derek Foresman on 12/6/18.
+//  Created by MTAC on 12/6/18.
 //  Copyright © 2018 MTAC Research. All rights reserved.
 //
 
@@ -12,4 +12,3 @@
 
 
 @end
-

@@ -28,7 +28,7 @@
 
     NSTask *isPluggedIn = [[NSTask alloc] init];
     [isPluggedIn setLaunchPath:@"/bin/sh"];
-    [isPluggedIn setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo", nil]];
+    [isPluggedIn setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [isPluggedIn setStandardOutput:pipe];
     [isPluggedIn launch];
@@ -79,7 +79,7 @@
 
     NSTask *iosVersion = [[NSTask alloc] init];
     [iosVersion setLaunchPath:@"/bin/sh"];
-    [iosVersion setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep ProductVersion", nil]];
+    [iosVersion setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep ProductVersion", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [iosVersion setStandardOutput:pipe];
     [iosVersion launch];
@@ -98,7 +98,7 @@
 
     NSTask *buildVersion = [[NSTask alloc] init];
     [buildVersion setLaunchPath:@"/bin/sh"];
-    [buildVersion setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep BuildVersion", nil]];
+    [buildVersion setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep BuildVersion", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [buildVersion setStandardOutput:pipe];
     [buildVersion launch];
@@ -117,7 +117,7 @@
 
     NSTask *iosVersion = [[NSTask alloc] init];
     [iosVersion setLaunchPath:@"/bin/sh"];
-    [iosVersion setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep CPUArchitecture", nil]];
+    [iosVersion setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep CPUArchitecture", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [iosVersion setStandardOutput:pipe];
     [iosVersion launch];
@@ -138,7 +138,7 @@
 
     NSTask *deviceName = [[NSTask alloc] init];
     [deviceName setLaunchPath:@"/bin/sh"];
-    [deviceName setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep DeviceName", nil]];
+    [deviceName setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep DeviceName", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [deviceName setStandardOutput:pipe];
     [deviceName launch];
@@ -159,7 +159,7 @@
 
     NSTask *password = [[NSTask alloc] init];
     [password setLaunchPath:@"/bin/sh"];
-    [password setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep PasswordProtected", nil]];
+    [password setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep PasswordProtected", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [password setStandardOutput:pipe];
     [password launch];
@@ -178,7 +178,7 @@
 
     NSTask *hardware = [[NSTask alloc] init];
     [hardware setLaunchPath:@"/bin/sh"];
-    [hardware setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep HardwareModel", nil]];
+    [hardware setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep HardwareModel", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [hardware setStandardOutput:pipe];
     [hardware launch];
@@ -197,7 +197,7 @@
 
     NSTask *productType = [[NSTask alloc] init];
     [productType setLaunchPath:@"/bin/sh"];
-    [productType setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep ProductType", nil]];
+    [productType setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep ProductType", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [productType setStandardOutput:pipe];
     [productType launch];
@@ -216,7 +216,7 @@
 
     NSTask *udidTask = [[NSTask alloc] init];
     [udidTask setLaunchPath:@"/bin/sh"];
-    [udidTask setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep UniqueDeviceID", nil]];
+    [udidTask setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep UniqueDeviceID", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [udidTask setStandardOutput:pipe];
     [udidTask launch];
@@ -237,7 +237,7 @@
 
     NSTask *type = [[NSTask alloc] init];
     [type setLaunchPath:@"/bin/sh"];
-    [type setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep ProductType", nil]];
+    [type setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep ProductType", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [type setStandardOutput:pipe];
     [type launch];
@@ -294,7 +294,7 @@
 
     NSTask *task = [[NSTask alloc] init];
     [task setLaunchPath:@"/bin/sh"];
-    [task setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep ActivationState", nil]];
+    [task setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep ActivationState", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [task setStandardOutput:pipe];
     [task launch];
@@ -315,7 +315,7 @@
 
     NSTask *baseband = [[NSTask alloc] init];
     [baseband setLaunchPath:@"/bin/sh"];
-    [baseband setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep BasebandStatus", nil]];
+    [baseband setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep BasebandStatus", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [baseband setStandardOutput:pipe];
     [baseband launch];
@@ -336,7 +336,7 @@
 
     NSTask *bt = [[NSTask alloc] init];
     [bt setLaunchPath:@"/bin/sh"];
-    [bt setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep BluetoothAddress", nil]];
+    [bt setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep BluetoothAddress", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [bt setStandardOutput:pipe];
     [bt launch];
@@ -357,7 +357,7 @@
 
     NSTask *bn = [[NSTask alloc] init];
     [bn setLaunchPath:@"/bin/sh"];
-    [bn setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep com.apple.System.boot-nonce", nil]];
+    [bn setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep com.apple.System.boot-nonce", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [bn setStandardOutput:pipe];
     [bn launch];
@@ -386,7 +386,7 @@
 
     NSTask *isCell = [[NSTask alloc] init];
     [isCell setLaunchPath:@"/bin/sh"];
-    [isCell setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep TelephonyCapability", nil]];
+    [isCell setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep TelephonyCapability", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [isCell setStandardOutput:pipe];
     [isCell launch];
@@ -409,7 +409,7 @@
 
     NSTask *eth = [[NSTask alloc] init];
     [eth setLaunchPath:@"/bin/sh"];
-    [eth setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep EthernetAddress", nil]];
+    [eth setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep EthernetAddress", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [eth setStandardOutput:pipe];
     [eth launch];
@@ -428,7 +428,7 @@
 
     NSTask *im = [[NSTask alloc] init];
     [im setLaunchPath:@"/bin/sh"];
-    [im setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep EthernetAddress", nil]];
+    [im setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep EthernetAddress", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [im setStandardOutput:pipe];
     [im launch];
@@ -447,7 +447,7 @@
 
     NSTask *telephone = [[NSTask alloc] init];
     [telephone setLaunchPath:@"/bin/sh"];
-    [telephone setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep PhoneNumber", nil]];
+    [telephone setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep PhoneNumber", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [telephone setStandardOutput:pipe];
     [telephone launch];
@@ -466,7 +466,7 @@
 
     NSTask *cl = [[NSTask alloc] init];
     [cl setLaunchPath:@"/bin/sh"];
-    [cl setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep Uses24HourClock", nil]];
+    [cl setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep Uses24HourClock", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [cl setStandardOutput:pipe];
     [cl launch];
@@ -489,7 +489,7 @@
 
     NSTask *sn = [[NSTask alloc] init];
     [sn setLaunchPath:@"/bin/sh"];
-    [sn setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep -w SerialNumber", nil]];
+    [sn setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep -w SerialNumber", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [sn setStandardOutput:pipe];
     [sn launch];
@@ -508,7 +508,7 @@
 
     NSTask *time = [[NSTask alloc] init];
     [time setLaunchPath:@"/bin/sh"];
-    [time setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep -w TimeZone", nil]];
+    [time setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep -w TimeZone", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [time setStandardOutput:pipe];
     [time launch];
@@ -527,7 +527,7 @@
 
     NSTask *wifiAddress = [[NSTask alloc] init];
     [wifiAddress setLaunchPath:@"/bin/sh"];
-    [wifiAddress setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinfo | grep WiFiAddress", nil]];
+    [wifiAddress setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo | grep WiFiAddress", nil]];
     NSPipe *pipe = [NSPipe pipe];
     [wifiAddress setStandardOutput:pipe];
     [wifiAddress launch];
@@ -545,7 +545,7 @@
 - (IBAction)shutdown:(NSButton *)sender {
 
     NSTask *halt = [[NSTask alloc] init];
-    [halt setLaunchPath:@"/usr/local/bin/idevicediagnostics"];
+    [halt setLaunchPath:@"/Applications/DeviceInfo.app/Contents/Resources/idevicediagnostics"];
     [halt setArguments:[NSArray arrayWithObjects:@"shutdown", nil]];
     [halt launch];
 
@@ -568,7 +568,7 @@
 - (IBAction)restart:(NSButton *)sender {
 
     NSTask *reboot = [[NSTask alloc] init];
-    [reboot setLaunchPath:@"/usr/local/bin/idevicediagnostics"];
+    [reboot setLaunchPath:@"/Applications/DeviceInfo.app/Contents/Resources/idevicediagnostics"];
     [reboot setArguments:[NSArray arrayWithObjects:@"-u", _globalIdentifier, @"restart", nil]];
     [reboot launch];
 
@@ -591,7 +591,7 @@
 - (IBAction)toRecovery:(NSButton *)sender {
 
     NSTask *recovery = [[NSTask alloc] init];
-    [recovery setLaunchPath:@"/usr/local/bin/ideviceenterrecovery"];
+    [recovery setLaunchPath:@"/Applications/DeviceInfo.app/Contents/Resources/ideviceenterrecovery"];
     [recovery setArguments:[NSArray arrayWithObjects:_globalIdentifier, nil]];
     [recovery launch];
 
@@ -614,7 +614,7 @@
 - (IBAction)fromRecovery:(NSButton *)sender {
 
     NSTask *fRecovery = [[NSTask alloc] init];
-    [fRecovery setLaunchPath:@"/usr/local/bin/idevicediagnostics"];
+    [fRecovery setLaunchPath:@"/Applications/DeviceInfo.app/Contents/Resources/idevicediagnostics"];
     [fRecovery setArguments:[NSArray arrayWithObjects:@"-u", _globalIdentifier, @"restart", nil]];
     [fRecovery launch];
 
@@ -670,7 +670,7 @@
 
     [install setLaunchPath:@"/bin/bash"];
 
-    [install setArguments:[NSArray arrayWithObjects:@"-c", @"/usr/local/bin/ideviceinstaller", @"-i", path, nil]];
+    [install setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinstaller", @"-i", path, nil]];
 
     NSPipe *pipe = [NSPipe pipe];
 
@@ -713,7 +713,7 @@
 
     NSTask *task = [[NSTask alloc] init];
 
-    [task setLaunchPath:@"/usr/local/bin/idevicescreenshot"];
+    [task setLaunchPath:@"/Applications/DeviceInfo.app/Contents/Resources/idevicescreenshot"];
 
     if ([panel runModal] == NSModalResponseOK) {
 

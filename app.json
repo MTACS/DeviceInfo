@@ -1,0 +1,10 @@
+{
+    "title": "DeviceInfo",
+    "icon-size": 80,
+    "contents": [
+      { "x": 142, "y": 246, "type": "file", "path": "DerivedData/DeviceInfo/Build/Products/Debug/DeviceInfo.app" },
+      { "x": 398, "y": 246, "type": "link", "path": "/Applications" }
+    ]
+}
+
+

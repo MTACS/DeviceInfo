@@ -24,6 +24,24 @@
 
 }
 
+/* - (NSString *)ideviceInfo:(NSString *)arg {
+    
+    NSTask *idi = [[NSTask alloc] init];
+    [idi setLaunchPath:@"/bin/bash"];
+    [idi setArguments:[NSArray arrayWithObjects:@"-c", @"/Applications/DeviceInfo.app/Contents/Resources/ideviceinfo", "|", "grep", arg, nil]];
+    
+    NSPipe *pipe = [NSPipe pipe];
+    [idi setStandardOutput:pipe];
+    [idi launch];
+    NSData *data = [[pipe fileHandleForReading] readDataToEndOfFile];
+    [idi waitUntilExit];
+    
+    NSString *result = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    
+    return result;
+    
+} */
+
 - (void)checkImage {
 
     NSTask *isPluggedIn = [[NSTask alloc] init];
@@ -40,10 +58,6 @@
     if ([result containsString:@"No device found, is it plugged in?"]) {
 
         self.isDevice = false;
-
-    } else if (!(result == nil)) {
-
-        self.isDevice = true;
 
     }
 

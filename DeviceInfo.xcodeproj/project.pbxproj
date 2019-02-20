@@ -15,6 +15,8 @@
 		17676E5E221C67E90090CEE0 /* ideviceinfo in Resources */ = {isa = PBXBuildFile; fileRef = 17676E5D221C67E90090CEE0 /* ideviceinfo */; };
 		17676E60221C6B520090CEE0 /* idevicediagnostics in Resources */ = {isa = PBXBuildFile; fileRef = 17676E5F221C6B520090CEE0 /* idevicediagnostics */; };
 		17676E62221C6B5A0090CEE0 /* idevicescreenshot in Resources */ = {isa = PBXBuildFile; fileRef = 17676E61221C6B5A0090CEE0 /* idevicescreenshot */; };
+		17BB894C221DDF6300512011 /* dmg.sh in Resources */ = {isa = PBXBuildFile; fileRef = 17BB894B221DDF6300512011 /* dmg.sh */; };
+		17BB894E221DDFE100512011 /* app.json in Resources */ = {isa = PBXBuildFile; fileRef = 17BB894D221DDFE100512011 /* app.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		17676E5D221C67E90090CEE0 /* ideviceinfo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ideviceinfo; sourceTree = "<group>"; };
 		17676E5F221C6B520090CEE0 /* idevicediagnostics */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = idevicediagnostics; sourceTree = "<group>"; };
 		17676E61221C6B5A0090CEE0 /* idevicescreenshot */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = idevicescreenshot; sourceTree = "<group>"; };
+		17BB894B221DDF6300512011 /* dmg.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = dmg.sh; sourceTree = "<group>"; };
+		17BB894D221DDFE100512011 /* app.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 		172C7D9C21B9A80A00C4D4FB = {
 			isa = PBXGroup;
 			children = (
+				17BB894B221DDF6300512011 /* dmg.sh */,
+				17BB894D221DDFE100512011 /* app.json */,
 				172C7DA721B9A80B00C4D4FB /* DeviceInfo */,
 				172C7DA621B9A80B00C4D4FB /* Products */,
 			);
@@ -142,11 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17BB894E221DDFE100512011 /* app.json in Resources */,
 				172C7DAF21B9A80C00C4D4FB /* Assets.xcassets in Resources */,
 				172C7DB221B9A80C00C4D4FB /* Main.storyboard in Resources */,
 				17676E5E221C67E90090CEE0 /* ideviceinfo in Resources */,
 				17676E62221C6B5A0090CEE0 /* idevicescreenshot in Resources */,
 				17676E60221C6B520090CEE0 /* idevicediagnostics in Resources */,
+				17BB894C221DDF6300512011 /* dmg.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

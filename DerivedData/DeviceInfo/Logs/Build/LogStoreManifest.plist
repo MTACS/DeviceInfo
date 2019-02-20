@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>0551E917-B8B0-4EBA-9E20-7D7751BBDA2F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0551E917-B8B0-4EBA-9E20-7D7751BBDA2F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>DeviceInfo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DeviceInfo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build DeviceInfo</string>
+			<key>timeStartedRecording</key>
+			<real>572384555.55156803</real>
+			<key>timeStoppedRecording</key>
+			<real>572384555.98064101</real>
+			<key>title</key>
+			<string>Build DeviceInfo</string>
+			<key>uniqueIdentifier</key>
+			<string>0551E917-B8B0-4EBA-9E20-7D7751BBDA2F</string>
+		</dict>
+		<key>550823FE-4083-4608-A820-A53C77F6A14B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>550823FE-4083-4608-A820-A53C77F6A14B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>DeviceInfo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DeviceInfo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build DeviceInfo</string>
+			<key>timeStartedRecording</key>
+			<real>572384619.91222298</real>
+			<key>timeStoppedRecording</key>
+			<real>572384620.100245</real>
+			<key>title</key>
+			<string>Build DeviceInfo</string>
+			<key>uniqueIdentifier</key>
+			<string>550823FE-4083-4608-A820-A53C77F6A14B</string>
+		</dict>
+		<key>996F855A-C866-4844-AB88-15349D38592D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>996F855A-C866-4844-AB88-15349D38592D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>DeviceInfo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DeviceInfo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build DeviceInfo</string>
+			<key>timeStartedRecording</key>
+			<real>572384598.34311795</real>
+			<key>timeStoppedRecording</key>
+			<real>572384598.60241795</real>
+			<key>title</key>
+			<string>Build DeviceInfo</string>
+			<key>uniqueIdentifier</key>
+			<string>996F855A-C866-4844-AB88-15349D38592D</string>
+		</dict>
+		<key>AFD50025-5804-4FFD-9E30-56F3330B4EE3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AFD50025-5804-4FFD-9E30-56F3330B4EE3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>DeviceInfo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DeviceInfo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build DeviceInfo</string>
+			<key>timeStartedRecording</key>
+			<real>572384626.61831999</real>
+			<key>timeStoppedRecording</key>
+			<real>572384627.16137898</real>
+			<key>title</key>
+			<string>Build DeviceInfo</string>
+			<key>uniqueIdentifier</key>
+			<string>AFD50025-5804-4FFD-9E30-56F3330B4EE3</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>5D086AF7-AE8D-4A6A-BDC0-BC943B43288B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5D086AF7-AE8D-4A6A-BDC0-BC943B43288B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>DeviceInfo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DeviceInfo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug DeviceInfo</string>
+			<key>timeStartedRecording</key>
+			<real>572384555.96183801</real>
+			<key>timeStoppedRecording</key>
+			<real>572384564.17007303</real>
+			<key>title</key>
+			<string>Debug DeviceInfo</string>
+			<key>uniqueIdentifier</key>
+			<string>5D086AF7-AE8D-4A6A-BDC0-BC943B43288B</string>
+		</dict>
+		<key>C77B088B-14C7-498D-B1F5-BD253882E0F1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C77B088B-14C7-498D-B1F5-BD253882E0F1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>DeviceInfo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DeviceInfo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug DeviceInfo</string>
+			<key>timeStartedRecording</key>
+			<real>572384627.14635706</real>
+			<key>timeStoppedRecording</key>
+			<real>572384664.66099405</real>
+			<key>title</key>
+			<string>Debug DeviceInfo</string>
+			<key>uniqueIdentifier</key>
+			<string>C77B088B-14C7-498D-B1F5-BD253882E0F1</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

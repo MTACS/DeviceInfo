@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/daf/Documents/Xcode Projects/iDeviceInfo/DeviceInfo.xcodeproj">
+      location = "group:../app.json">
+   </FileRef>
+   <FileRef
+      location = "group:../build.sh">
+   </FileRef>
+   <FileRef
+      location = "group:../dmg.sh">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
